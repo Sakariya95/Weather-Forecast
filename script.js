@@ -111,7 +111,7 @@ $(document).ready(function () {
         $(".searchColumn").append('<div class="searchHistoryContainer"></div>');
       }
       $(".searchHistoryContainer").html("");
-      for (var i = 0; i < cityHistory.length; i++) {
+      for (var i = 0; i < cityHistory?.length; i++) {
         var city = cityHistory[i];
         $(".searchHistoryContainer").append(
           `<button id="CityBtn${i}">${city}</button>`
